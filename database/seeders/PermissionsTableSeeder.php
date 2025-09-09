@@ -74,6 +74,14 @@ class PermissionsTableSeeder extends Seeder
             ]);
         }
 
+
+        Permission::generateFor('planillas');
+        Permission::generateFor('marcas');
+        Permission::generateFor('colores');
+        Permission::generateFor('categorias');
+        Permission::generateFor('razas');
+
+
      
 
 
