@@ -55,7 +55,7 @@ class ReporteController extends Controller
         if($request->print){
             return view('reportes.planillas.print', compact('planillas', 'start', 'finish'));
         }else{
-            return view('reportes.planillas.list', compact('saplanillasles'));
+            return view('reportes.planillas.list', compact('planillas'));
         }
     }
 }
