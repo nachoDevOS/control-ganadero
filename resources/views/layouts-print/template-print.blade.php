@@ -74,7 +74,7 @@
                 @if($admin_favicon == '')
                     <img src="{{ voyager_asset('images/logo-icon-light.png') }}" /> 
                 @else
-                    <img src="{{ Voyager::image($admin_logo_img) }}" /> 
+                    <img src="{{ Voyager::image($admin_favicon) }}" /> 
                 @endif
             </div>
             <div class="content">
