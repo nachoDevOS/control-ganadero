@@ -34,6 +34,7 @@ class ReporteController extends Controller
         $detail = $request->detail;
         $start = $request->start;
         $finish = $request->finish;
+        // dump($request->all());
 
         $planillas = Planilla::with(['marca', 'categoria', 'raza', 'color'])
             ->whereDate('registro', '>=', $start)

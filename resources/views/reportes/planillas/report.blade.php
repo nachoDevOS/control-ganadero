@@ -36,7 +36,7 @@
                                 
                                 <div class="form-group">
                                     <div class="form-line">
-                                        <select name="catergoria_id" id="catergoria_id" class="form-control select2" >
+                                        <select name="categoria_id" id="categoria_id" class="form-control select2" >
                                             <option value="" selected>--Todos--</option>
                                             @foreach ($categorias as $item)
                                                 <option value="{{$item->id}}">{{$item->nombre}}</option>
