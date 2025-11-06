@@ -33,6 +33,17 @@
                                         </div>
                                     </div>
                                 </div>
+
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <select name="type" id="type" class="form-control select2" >
+                                            <option value="" selected>--Todos--</option>
+                                            <option value="1ra">1ra</option>
+                                            <option value="2da">2da</option>
+                                        </select>
+                                        <small>Tipo de Registro</small>
+                                    </div>
+                                </div>
                                 
                                 <div class="form-group">
                                     <div class="form-line">
@@ -54,6 +65,13 @@
                                             @endforeach
                                         </select>
                                         <small>Color</small>
+                                    </div>
+                                </div>
+
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <input type="carimbo" class="form-control" name="carimbo" >
+                                        <small>Carimbo</small>
                                     </div>
                                 </div>
 
