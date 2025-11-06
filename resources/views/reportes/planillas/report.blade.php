@@ -44,6 +44,17 @@
                                         <small>Tipo de Registro</small>
                                     </div>
                                 </div>
+
+                                <div class="form-group">
+                                    <div class="form-line">
+                                        <select name="sexo" id="sexo" class="form-control select2" >
+                                            <option value="" selected>--Todos--</option>
+                                            <option value="H">Hembra</option>
+                                            <option value="M">Macho</option>
+                                        </select>
+                                        <small>Sexo</small>
+                                    </div>
+                                </div>
                                 
                                 <div class="form-group">
                                     <div class="form-line">

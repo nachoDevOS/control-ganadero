@@ -47,6 +47,7 @@ class ReporteController extends Controller
             ->whereRaw($request->marca_id? 'marca_id = '.$request->marca_id : 1)
             ->whereRaw($request->carimbo? 'nro_carimbo ='.$request->carimbo : 1)
             ->whereRaw($request->type? 'type ='.$request->type : 1)
+            ->whereRaw($request->sexo? 'sexo ='.$request->sexo : 1)
 
             ->where('deleted_at', null)
             ->orderBy('registro', 'ASC')
